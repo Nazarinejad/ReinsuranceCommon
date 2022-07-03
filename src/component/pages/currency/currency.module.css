@@ -1,0 +1,21 @@
+.currency_wrapper{
+    direction: rtl;
+    width:100%;
+    /* min-height: calc(100vh - 105px); */
+    background-color: #EAEDF7;
+    _display: flex;
+    _flex-direction: row-reverse;
+    _justify-content: center;
+    _align-items: center;
+    padding:20px 16px
+}
+.updateDate{
+    float:left;
+    padding-right: 10px;
+}
+.updateDateTitle{
+    float:left;
+    color: rgb(155, 155, 155);
+    font-size: 12px;
+
+}

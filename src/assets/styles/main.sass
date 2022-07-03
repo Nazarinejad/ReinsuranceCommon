@@ -1,0 +1,97 @@
+@import "./component/tab"
+@import "./component/filterBox"
+@import "./component/table"
+@import "./component/form"
+
+.spinner
+  background-color: $white
+  text-align: center
+  border-radius: 4px
+  margin-bottom: 20px
+  padding: 200px 50px
+
+.text-light
+  color: $gray-1
+//------------------------modal----------------------
+.ant-modal-footer
+  padding: 0 !important
+
+//------------------------end:modal----------------------
+
+// ----------------------datepicker----------------------
+.ant-picker-clear
+  display: none !important
+
+.tether-element.tether-element-attached-bottom.tether-element-attached-center.tether-target-attached-top.tether-target-attached-center.tether-enabled
+  z-index: 2000
+// ----------------------end:datepicker----------------------
+
+//--------------------------switch---------------------------
+.statusSwitch
+  min-width: 66px
+  .ant-switch-inner
+    font-size: 10px
+//--------------------------end:switch---------------------------
+
+// --------------------push notifications------------------------
+.ant-notification-rtl
+  top: 80px !important
+  .ant-notification-notice-success
+    background-color: #6CBF25 !important
+  .ant-notification-notice-error
+    background-color: #FF5B2D !important
+
+.anticon.ant-notification-notice-icon-success
+  color: #fff !important
+.ant-notification-notice-message
+  color: #fff !important
+.ant-notification-notice-close
+  color: #fff !important
+.anticon.ant-notification-notice-icon-error
+  color: #fff !important
+// --------------------end: push notifications-------------------
+
+tr.ant-table-expanded-row > td, tr.ant-table-expanded-row:hover > td
+  background-color: #EAEDF7
+.ant-table-tbody > tr .ant-table-wrapper:only-child .ant-table.ant-table-rtl
+  margin: -16px 33px -16px 0px
+
+tr.ant-table-expanded-row>td:before
+  width: 1px
+  height: 88px
+  background-color: #ccc
+  display: inline-block
+  content: ""
+  position: absolute
+  right: 14px
+  top: 0
+
+tr.ant-table-expanded-row>td:after
+  width: 18px
+  height: 1px
+  background-color: #ccc
+  display: inline-block
+  content: ""
+  position: absolute
+  right: 14px
+  top: 88px
+.sanhab-table-pagination .ant-pagination
+  padding-bottom: 0 !important
+
+.sanhab-date-picker
+  max-width: 100% !important
+
+// -----------excel-------------
+.excelButton
+  float: left
+  position: relative
+  z-index: 1
+  padding-left: 5px !important
+  padding-right: 5px !important
+  i
+    position: relative
+    top: -3px
+
+
+.buttonCreate
+  z-index:4

@@ -1,0 +1,45 @@
+@import "sanhab-components-library/src/assets/styles/variable/variable"
+.reinsuranceTable
+    table
+        font-size: 12px
+        margin: 15px 0 0 0
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td
+        padding: 10px 0 !important
+        text-align: center !important
+        &.detailBtnCol
+            text-align: left
+            width:20px !important
+            button
+                height: 44px
+                width:16px
+                margin-top: -10px
+                margin-bottom:-10px
+        &.operationCol
+            text-align: left
+    .ant-table
+        .ant-table-thead > tr > th
+            padding-top: 10px !important
+            padding-bottom:10px !important
+            &::before
+                display: none !important
+        .ant-table-tbody
+            background-color: $white
+            tr:nth-child(even) 
+                background: rgba(245, 246, 248, 0.6)
+
+.customPagination
+    .ant-pagination-total-text
+        float: left
+
+.nestedTable
+    table
+        margin:30px 0
+.nestedTableWithPagination
+    margin-right:35px
+.nestedTableWithPagination ~ .sanhab-table-pagination
+    margin-right:35px
+.ant-table-tbody > tr .ant-table-wrapper:only-child .ant-table.ant-table-rtl 
+    margin: -16px 33px -16px 0px !important
+
+tr.ant-table-expanded-row > td, tr.ant-table-expanded-row:hover > td 
+    background-color: #EAEDF7 !important

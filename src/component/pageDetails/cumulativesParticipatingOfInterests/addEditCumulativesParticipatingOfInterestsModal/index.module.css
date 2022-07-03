@@ -1,0 +1,7 @@
+.radioGroup{
+    width:100%
+}
+.radioGroup label{
+    width: 50% !important;
+    text-align: center;
+}
